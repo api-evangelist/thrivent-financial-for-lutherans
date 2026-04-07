@@ -1,7 +1,12 @@
 aid: thrivent-financial-for-lutherans
-url: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.thrivent-financial-for-lutherans.com
+description: >-
+  Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services
+  organization helping Christians be wise with money and live generously through financial
+  advice and insurance products.
