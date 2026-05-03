@@ -1,0 +1,118 @@
+name: Thrivent Financial Vocabulary
+description: >-
+  Domain vocabulary for Thrivent Financial, covering financial planning,
+  investment, insurance, banking, and charitable giving products and services
+  offered by this not-for-profit Fortune 500 financial services organization.
+version: '2026'
+created: '2026-05-03'
+modified: '2026-05-03'
+tags:
+  - Annuities
+  - Banking
+  - Financial Advice
+  - Financial Planning
+  - Fortune 500
+  - Generosity
+  - Insurance
+  - Investments
+  - Non Profit
+
+categories:
+  - name: Financial Planning Services
+    description: Advisory and planning service types offered by Thrivent
+    terms:
+      - term: Money Coaching
+        definition: Free introductory financial coaching service helping clients assess their financial situation and set goals
+        type: Service
+      - term: Dedicated Planning Services
+        definition: Fee-based comprehensive financial planning with an ongoing advisor relationship; tiered pricing from $900–$10,000 annually
+        type: Service
+      - term: Managed Accounts Program
+        definition: Professionally managed investment portfolio service with a minimum $25,000 investment; fees typically 0.9%–1.4%
+        type: Service
+      - term: Trust Services
+        definition: Fiduciary trust and estate planning services for wealth transfer and asset management
+        type: Service
+      - term: Financial Advisor
+        definition: A licensed Thrivent professional providing personalized financial advice; Thrivent plans to add 600 advisors in 2026
+        type: Role
+
+  - name: Insurance Products
+    description: Insurance products available through Thrivent
+    terms:
+      - term: Life Insurance
+        definition: Insurance providing a death benefit to beneficiaries; Thrivent offers term and permanent life insurance products
+        type: Product
+      - term: Disability Income Insurance
+        definition: Insurance replacing a portion of income if the insured becomes unable to work due to illness or injury
+        type: Product
+      - term: Long-Term Care Strategy
+        definition: Insurance and planning solutions addressing costs associated with extended care needs in later life
+        type: Product
+
+  - name: Investment Products
+    description: Investment products available through Thrivent
+    terms:
+      - term: Mutual Fund
+        definition: A pooled investment vehicle managed by Thrivent's investment team; available in various asset classes
+        type: Product
+      - term: Annuity
+        definition: An insurance-based contract providing guaranteed income, particularly for retirement planning
+        type: Product
+      - term: ETF
+        definition: Exchange-Traded Fund; Thrivent offers actively managed ETFs available on public exchanges
+        type: Product
+      - term: Managed Accounts
+        definition: Individually managed investment portfolios through Thrivent's managed account program
+        type: Product
+      - term: Private Investments
+        definition: Alternative investment options through Thrivent's private investments division
+        type: Product
+
+  - name: Banking Products
+    description: Banking services through Thrivent Bank
+    terms:
+      - term: Thrivent Bank
+        definition: A Utah-chartered industrial bank subsidiary providing savings accounts and banking products to Thrivent members
+        type: Entity
+      - term: Church Loan
+        definition: Specialized commercial lending product for faith-based organizations (churches, ministries) offered through Thrivent Bank
+        type: Product
+      - term: High-Yield Savings
+        definition: Savings account product with competitive interest rates offered through Thrivent Bank
+        type: Product
+
+  - name: Charitable & Generosity Programs
+    description: Giving and community impact programs available to Thrivent members
+    terms:
+      - term: Thrivent Action Teams
+        definition: Member-led volunteer teams funded by Thrivent to serve their communities; 190,000 teams activated in 2025
+        type: Program
+      - term: Thrivent Charitable
+        definition: The charitable giving platform offering donor-advised funds and community impact resources
+        type: Platform
+      - term: Donor-Advised Fund
+        definition: A charitable account allowing members to make tax-deductible contributions and recommend grants to nonprofits
+        type: Financial Instrument
+      - term: Choice Dollars
+        definition: Thrivent member benefit dollars that can be directed to qualifying nonprofits selected by the member
+        type: Benefit
+
+  - name: Membership & Organization
+    description: Key organizational concepts
+    terms:
+      - term: Member
+        definition: An individual who holds a Thrivent financial product (insurance or investment) and is eligible for membership benefits
+        type: Role
+      - term: Not-for-Profit
+        definition: Organizational designation; Thrivent is a fraternal benefit society operating for the benefit of its members rather than shareholders
+        type: Designation
+      - term: Fortune 500
+        definition: Ranking classification; Thrivent appears on the Fortune 500 list of largest US companies by revenue
+        type: Designation
+      - term: Assets Under Management
+        definition: Total value of investments managed on behalf of Thrivent clients; exceeds $212 billion as of 2026
+        type: Metric
+      - term: Fraternal Benefit Society
+        definition: Legal organizational structure for Thrivent; a member-owned organization providing insurance and financial benefits
+        type: Legal Structure

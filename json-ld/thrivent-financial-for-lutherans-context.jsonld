@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "@vocab": "https://www.thrivent.com/vocab#",
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "thrivent": "https://www.thrivent.com/vocab#",
+
+    "FinancialAdvisoryService": {
+      "@id": "schema:FinancialService",
+      "rdfs:comment": "A financial advisory or planning service offered by Thrivent"
+    },
+    "InsuranceProduct": {
+      "@id": "schema:InsuranceAgency",
+      "rdfs:comment": "An insurance product offered by Thrivent"
+    },
+    "InvestmentProduct": {
+      "@id": "schema:InvestmentOrDeposit",
+      "rdfs:comment": "An investment product managed or offered by Thrivent"
+    },
+    "BankingProduct": {
+      "@id": "schema:BankAccount",
+      "rdfs:comment": "A banking product offered through Thrivent Bank"
+    },
+    "CharitableProgram": {
+      "@id": "schema:DonateAction",
+      "rdfs:comment": "A Thrivent charitable giving or generosity program"
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "provider": "schema:provider",
+    "areaServed": "schema:areaServed",
+    "category": "schema:category",
+
+    "annualFeeMin": {
+      "@id": "thrivent:annualFeeMin",
+      "@type": "xsd:decimal"
+    },
+    "annualFeeMax": {
+      "@id": "thrivent:annualFeeMax",
+      "@type": "xsd:decimal"
+    },
+    "minimumInvestment": {
+      "@id": "thrivent:minimumInvestment",
+      "@type": "xsd:decimal"
+    },
+    "feeRangeMin": {
+      "@id": "thrivent:feeRangeMin",
+      "@type": "xsd:decimal"
+    },
+    "feeRangeMax": {
+      "@id": "thrivent:feeRangeMax",
+      "@type": "xsd:decimal"
+    },
+    "assetsUnderManagement": {
+      "@id": "thrivent:assetsUnderManagement",
+      "@type": "xsd:decimal"
+    },
+    "memberCount": {
+      "@id": "thrivent:memberCount",
+      "@type": "xsd:integer"
+    },
+    "employeeCount": {
+      "@id": "thrivent:employeeCount",
+      "@type": "xsd:integer"
+    },
+
+    "isMemberOnly": {
+      "@id": "thrivent:isMemberOnly",
+      "@type": "xsd:boolean"
+    },
+    "isFeeBased": {
+      "@id": "thrivent:isFeeBased",
+      "@type": "xsd:boolean"
+    },
+    "requiresMinimumInvestment": {
+      "@id": "thrivent:requiresMinimumInvestment",
+      "@type": "xsd:boolean"
+    },
+
+    "planningServices": {
+      "@id": "thrivent:hasPlanningServices",
+      "@container": "@list"
+    },
+    "insuranceProducts": {
+      "@id": "thrivent:hasInsuranceProducts",
+      "@container": "@list"
+    },
+    "investmentProducts": {
+      "@id": "thrivent:hasInvestmentProducts",
+      "@container": "@list"
+    },
+    "bankingProducts": {
+      "@id": "thrivent:hasBankingProducts",
+      "@container": "@list"
+    },
+    "generosityPrograms": {
+      "@id": "thrivent:hasGenerosityPrograms",
+      "@container": "@list"
+    },
+
+    "legalName": "schema:legalName",
+    "foundingDate": "schema:foundingDate",
+    "headquarters": "schema:location",
+    "nonprofitStatus": "schema:nonprofitStatus",
+    "Fortune500": "schema:award",
+
+    "MoneyCoaching": "thrivent:ServiceMoneyCoaching",
+    "DedicatedPlanningServices": "thrivent:ServiceDedicatedPlanning",
+    "ManagedAccountsProgram": "thrivent:ServiceManagedAccounts",
+    "TrustServices": "thrivent:ServiceTrust",
+    "ThriventBank": "thrivent:EntityThriventBank",
+    "ThriventCharitable": "thrivent:EntityThriventCharitable",
+    "ThriventActionTeams": "thrivent:ProgramActionTeams",
+    "ChoiceDollars": "thrivent:BenefitChoiceDollars",
+    "DonorAdvisedFund": "thrivent:ProductDonorAdvisedFund"
+  }
+}
