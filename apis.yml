@@ -51,7 +51,7 @@ apis:
         url: https://www.thrivent.com/
       - type: Documentation
         url: https://www.thrivent.com/product-overview
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.thrivent.com/client-resources
       - type: Login
         url: https://login.apps.thrivent.com/
