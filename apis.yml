@@ -131,6 +131,8 @@ apis:
         url: https://www.thrivent.com/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/thrivent
   - type: Website
     url: https://www.thrivent.com/
   - type: Products and Services
