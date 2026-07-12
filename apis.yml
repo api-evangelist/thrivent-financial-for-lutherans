@@ -131,6 +131,8 @@ apis:
         url: https://www.thrivent.com/
 
 common:
+  - type: DomainSecurity
+    url: security/thrivent-financial-for-lutherans-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/thrivent
   - type: Website
