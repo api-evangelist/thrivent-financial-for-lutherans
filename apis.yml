@@ -33,6 +33,18 @@ tags:
   - Insurance
   - Investments
   - Mutual Funds
+  - Non-Profit
+tags_raw:
+  - Annuities
+  - Banking
+  - ETFs
+  - Financial Advice
+  - Financial Planning
+  - Fortune 500
+  - Generosity
+  - Insurance
+  - Investments
+  - Mutual Funds
   - Non Profit
 url: >-
   https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/apis.yml
@@ -86,6 +98,11 @@ apis:
       - Disability Income Insurance
       - Insurance
       - Life Insurance
+      - Long-Term Care
+    tags_raw:
+      - Disability Income Insurance
+      - Insurance
+      - Life Insurance
       - Long Term Care
     properties:
       - type: Documentation
@@ -133,6 +150,12 @@ apis:
       financial resources with community impact.
     humanURL: https://www.thrivent.com/
     tags:
+      - Charitable Giving
+      - Community Impact
+      - Donations
+      - Generosity
+      - Non-Profit
+    tags_raw:
       - Charitable Giving
       - Community Impact
       - Donations
