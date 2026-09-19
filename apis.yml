@@ -42,7 +42,7 @@ tags:
   - Fortune 500
   - Generosity
   - Insurance
-  - Investments
+  - Investment
   - Mutual Funds
   - Non-Profit
 tags_raw:
@@ -74,6 +74,14 @@ apis:
     humanURL: https://www.thrivent.com/
     baseURL: https://www.thrivent.com/
     tags:
+      - Annuities
+      - Banking
+      - Financial Advice
+      - Financial Planning
+      - Insurance
+      - Investment
+      - Retirement
+    tags_raw:
       - Annuities
       - Banking
       - Financial Advice
@@ -128,6 +136,12 @@ apis:
       and a range of actively managed ETFs.
     humanURL: https://www.thrivent.com/product-overview
     tags:
+      - Annuities
+      - ETFs
+      - Investment
+      - Managed Accounts
+      - Mutual Funds
+    tags_raw:
       - Annuities
       - ETFs
       - Investments
