@@ -1,7 +1,9 @@
 ---
 title: Thrivent Financial for Lutherans Boosts Holdings in Equity ...
 url: https://www.marketbeat.com/instant-alerts/filing-thrivent-financial-for-lutherans-boosts-holdings-in-equity-lifestyle-properties-inc-els-2026-05-17/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Thrivent Financial for Lutherans" press release artificial intelligence'
 position: 4
 source: serpapi-google

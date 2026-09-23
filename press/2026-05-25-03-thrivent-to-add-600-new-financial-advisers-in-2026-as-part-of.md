@@ -1,7 +1,9 @@
 ---
 title: Thrivent to Add 600 New Financial Advisers in 2026 as Part of ...
 url: https://news.ambest.com/newscontent.aspx?refnum=273194&altsrc=23
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Thrivent Financial for Lutherans" press release artificial intelligence'
 position: 3
 source: serpapi-google

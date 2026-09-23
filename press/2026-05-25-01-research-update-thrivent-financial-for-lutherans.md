@@ -1,7 +1,9 @@
 ---
 title: 'Research Update: Thrivent Financial for Lutherans'
 url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12298853
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Thrivent Financial for Lutherans" press release artificial intelligence'
 position: 1
 source: serpapi-google
