@@ -72,7 +72,6 @@ apis:
       Dedicated Planning Services with ongoing advisor relationships, and
       Managed Accounts for investment management.
     humanURL: https://www.thrivent.com/
-    baseURL: https://www.thrivent.com/
     tags:
       - Annuities
       - Banking
