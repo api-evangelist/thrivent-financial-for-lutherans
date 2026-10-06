@@ -60,7 +60,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-05-03'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: thrivent-financial-for-lutherans:thrivent-financial-planning
@@ -190,6 +190,10 @@ apis:
         url: https://www.thrivent.com/
 
 common:
+  - url: https://www.thrivent.com/insights
+    type: Blog
+  - url: https://www.thrivent.com/insights.rss
+    type: BlogRSS
   - type: DomainSecurity
     url: security/thrivent-financial-for-lutherans-domain-security.yml
   - type: LinkedIn
